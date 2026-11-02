@@ -1,0 +1,31 @@
+﻿@page "/"
+
+<div class="page-container" >
+
+<div class="header" >
+
+<img src="images/logo-acogida.png" alt="Acogida 2.0" / >
+
+<h1 > Bienvenido a Acogida 2.0</h1 >
+
+<p >
+Información y recursos para ayudarte en tu llegada.
+</p >
+
+</div >
+
+<div class="card" >
+
+<h2 > ¿Qué necesitas?</h2 >
+
+<p >
+Selecciona una categoría para acceder a la información que estás buscando.
+</p >
+
+<a href="/categorias" class="btn-principal" >
+Comenzar
+</a >
+
+</div >
+
+</div >
