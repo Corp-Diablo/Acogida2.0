@@ -1,31 +1,26 @@
-﻿@page "/"
+﻿.bienvenida-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
-<div class="page-container" >
+.bienvenida-card {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient( 180deg, #f8fbff 0%, #eef6ff 100% );
+    border: 1px solid #dbeafe;
+    border-radius: 25px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.15);
+}
 
-<div class="header" >
-
-<img src="images/logo-acogida.png" alt="Acogida 2.0" / >
-
-<h1 > Bienvenido a Acogida 2.0</h1 >
-
-<p >
-Información y recursos para ayudarte en tu llegada.
-</p >
-
-</div >
-
-<div class="card" >
-
-<h2 > ¿Qué necesitas?</h2 >
-
-<p >
-Selecciona una categoría para acceder a la información que estás buscando.
-</p >
-
-<a href="/categorias" class="btn-principal" >
-Comenzar
-</a >
-
-</div >
-
-</div >
+.logo-principal {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}

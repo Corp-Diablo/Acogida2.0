@@ -1,5 +1,29 @@
-﻿<h3>Index</h3>
+﻿@page "/"
+@inject NavigationManager Navigation
+   <div class="bienvenida-card">
+
+        <img src="/icons/mano-mundo.png"
+             alt="Acogida 2.0"
+             class="logo-principal" />
+
+        <h1>Bienvenido a Acogida 2.0</h1>
+
+        <p class="subtitulo">
+            Accede fácilmente a los servicios que necesitas.
+        </p>
+    <a href="/home" class="btn-primary boton-empezar">
+        Comenzar
+    </a>
+    <SelectorIdioma />
+    <p>© Corp.Diablo 2026. Todos los derechos reservados.</p>
+</div>
 
 @code {
 
+    private void IrAHome()
+    {
+        Navigation.NavigateTo("/home");
+    }
+
 }
+
